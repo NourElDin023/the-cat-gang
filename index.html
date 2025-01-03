@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Gang</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <style>
+        .bgColorOne {
+            background-color: #0D0D0D;
+        }
+
+        .bgColorTwo {
+            background-color: #1A1A1A;
+        }
+
+        .bgColorAccent {
+            background-color: #B22222;
+        }
+
+        .txtColorOne {
+            color: #A9A9A9;
+        }
+
+        .txtColorTwo {
+            color: #FFFFFF;
+        }
+
+        .txtColorAccent {
+            color: #B22222;
+        }
+
+        .nav-link {
+            transition: color 0.3s ease, border-bottom 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #B22222;
+            border-bottom: 2px solid #B22222;
+        }
+
+        img {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        html {
+            scrollbar-width: thin;
+            scrollbar-color: #B22222 #0D0D0D;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #B22222;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background-color: #0D0D0D;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid bgColorTwo">
+
+
+        <!-- ---------Header--------- -->
+        <header
+            class="row px-2 align-items-center text-center bgColorOne txtColorTwo sticky-sm-top justify-content-around">
+            <div class="logo col-12 col-md-5 fw-bold fs-1">THE CAT GANG</div>
+            <nav class="navbar col-12 col-md-5 fs-5 fw-semibold">
+                <a href="#" class="nav-link">Home</a>
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Team</a>
+                <a href="#" class="nav-link">Work</a>
+                <a href="#" class="nav-link">Service</a>
+                <a href="#" class="nav-link">Contact</a>
+            </nav>
+        </header>
+        <!-- ---------Body--------- -->
+        <main class="container">
+
+
+            <!-- ---------Home--------- -->
+            <div class="row py-3 align-items-center justify-content-center">
+                <div class="col-11 col-md-5">
+                    <img class="img-fluid rounded-5" src="./assets/images/meowGang.jpg" alt="Our Gang Photo">
+                </div>
+                <div class="col-11 col-md-7 text-center txtColorOne">
+                    <p class="fs-2 fw-bolder my-2 txtColorTwo">Cool Cats, Cooler Crimes
+                    <p class="fs-4">
+                        Welcome to the official headquarters of<strong class="txtColorAccent"> THE CAT
+                            GANG</strong><em> A notorious band of
+                            felines with
+                            flair, cunning, and style. Whether it's pulling off daring tuna heists, outsmarting the
+                            neighborhood dogs, or throwing the wildest alley parties,<strong class="txtColorAccent">
+                                THE CAT GANG</strong>
+                            knows how to keep
+                            things exciting. Step into our world of mischief, mystery, and absolute purrfection.
+                            <strong class="txtColorAccent"> But
+                                beware,</strong> not everyone makes the cut to hang with the coolest cats in town</em>
+                    </p>
+                    </p>
+                </div>
+            </div>
+            <!-- ---------About--------- -->
+            <div class="row"></div>
+            <!-- ---------Team--------- -->
+            <!-- ---------Work--------- -->
+            <!-- ---------Service--------- -->
+            <!-- ---------Contact--------- -->
+        </main>
+        <!-- ---------Footer--------- -->
+        <footer class="bgColorOne txtColorOne py-3 text-center row">
+            <p>&copy; 2025 THE CAT GANG. All Rights Reserved.</p>
+            <div>
+                <a href="#" class="txtColorAccent">Facebook</a> |
+                <a href="#" class="txtColorAccent">Twitter</a> |
+                <a href="#" class="txtColorAccent">Instagram</a>
+            </div>
+        </footer>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
