@@ -1,0 +1,80 @@
+.bgColorOne {
+    background-color: #0d0d0d;
+}
+
+.bgColorTwo {
+    background-color: #1a1a1a;
+}
+
+.bgColorAccent {
+    background-color: #b22222;
+}
+
+.txtColorOne {
+    color: #a9a9a9;
+}
+
+.txtColorTwo {
+    color: #ffffff;
+}
+
+.txtColorAccent {
+    color: #b22222;
+}
+
+.nav-link {
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #b22222;
+    border-bottom: 2px solid #b22222;
+}
+
+img {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+html {
+    scrollbar-width: thin;
+    scrollbar-color: #b22222 #0d0d0d;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #b22222;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #0d0d0d;
+}
+
+.form-control {
+    color: #fff;
+    background-color: #1a1a1a;
+    caret-color: #b22222;
+}
+
+.form-control:focus {
+    color: #fff;
+    background-color: #333232;
+}
+
+.form-control::placeholder {
+    color: #fff;
+}
+
+.btn-outline-light:hover {
+    background-color: var(--mainColor);
+    border-color: #b22222;
+    color: #b22222;
+}
