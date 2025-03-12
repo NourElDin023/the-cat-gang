@@ -110,3 +110,13 @@ html {
     background-color: #b22222 !important;
     border-color: #b22222 !important;
 }
+
+::-moz-selection {
+    color: #fff;
+    background: #8b0000;
+}
+
+::selection {
+    color: #fff;
+    background: #8b0000;
+}
