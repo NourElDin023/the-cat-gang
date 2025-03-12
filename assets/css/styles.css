@@ -37,10 +37,13 @@
 
 img {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.img-card {
     transition: transform 0.3s ease;
 }
 
-img:hover {
+.img-card:hover {
     transform: scale(1.05);
 }
 
