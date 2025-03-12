@@ -10,44 +10,36 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 
-<body>
-    <div class="container-fluid bgColorTwo">
-
-
-        <!-- ---------Header--------- -->
-        <header
-            class="row px-2 align-items-center text-center bgColorOne txtColorTwo sticky-sm-top pt-3 justify-content-center">
-            <h1 class="logo col-10 col-md-5 fw-bold fs-1 my-2">THE CAT GANG</h1>
-
-            <!-- Navbar -->
-            <button class="navbar-toggler ms-auto col-2 d-md-none" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"> <svg fill="#fff" viewBox="0 -2 28 28"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="m2.61 0h22.431c1.441 0 2.61 1.168 2.61 2.61s-1.168 2.61-2.61 2.61h-22.431c-1.441 0-2.61-1.168-2.61-2.61s1.168-2.61 2.61-2.61z" />
-                        <path
-                            d="m2.61 9.39h22.431c1.441 0 2.61 1.168 2.61 2.61s-1.168 2.61-2.61 2.61h-22.431c-1.441 0-2.61-1.168-2.61-2.61s1.168-2.61 2.61-2.61z" />
-                        <path
-                            d="m2.61 18.781h22.431c1.441 0 2.61 1.168 2.61 2.61s-1.168 2.61-2.61 2.61h-22.431c-1.441 0-2.61-1.168-2.61-2.61s1.168-2.61 2.61-2.61z" />
-                    </svg>
-                </span>
-            </button>
-            <nav class="navbar navbar-expand-md col-12 col-md-6">
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav fs-5 fw-semibold justify-content-around w-75">
-                        <li class="nav-item"><a href="#about" class="nav-link text-white">About</a></li>
-                        <li class="nav-item"><a href="#team" class="nav-link text-white">Team</a></li>
-                        <li class="nav-item"><a href="#work" class="nav-link text-white">Work</a></li>
-                        <li class="nav-item"><a href="#service" class="nav-link text-white">Service</a></li>
-                        <li class="nav-item"><a href="#contact" class="nav-link text-white">Contact</a></li>
-                    </ul>
+<body class="bgColorTwo">
+    <!-- ---------Header--------- -->
+    <header class="sticky-top w-100">
+        <nav class="navbar navbar-expand-lg bgColorOne" data-bs-theme="dark" id="navId">
+            <div class="container-fluid justify-content-around">
+                <a class="navbar-brand fw-bold fs-2 " href="#home">THE CAT GANG</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a onclick="document.getElementById('navbarNavAltMarkup').classList.toggle('show')"
+                            class="nav-link active" aria-current="page" href="#about">About</a>
+                        <a onclick="document.getElementById('navbarNavAltMarkup').classList.toggle('show')"
+                            class="nav-link" href="#team">Team</a>
+                        <a onclick="document.getElementById('navbarNavAltMarkup').classList.toggle('show')"
+                            class="nav-link" href="#work">Work</a>
+                        <a onclick="document.getElementById('navbarNavAltMarkup').classList.toggle('show')"
+                            class="nav-link" href="#service">Service</a>
+                        <a onclick="document.getElementById('navbarNavAltMarkup').classList.toggle('show')"
+                            class="nav-link" href="#contact">Contact</a>
+                    </div>
                 </div>
-            </nav>
-        </header>
-
-        <!-- ---------Body--------- -->
-        <main class="container">
+            </div>
+        </nav>
+    </header>
+    <!-- ---------Body--------- -->
+    <main class="container" data-bs-spy="scroll" and data-bs-target="#navId">
 
             <!-- ---------Home--------- -->
             <section class="row py-3 align-items-center justify-content-center mt-3">
