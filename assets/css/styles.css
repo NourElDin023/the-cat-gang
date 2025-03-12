@@ -78,7 +78,9 @@ html {
     border-color: #b22222;
     color: #b22222;
 }
-:root{
+
+
+:root {
     scroll-padding-top: 60px;
     overflow: scroll;
 }
