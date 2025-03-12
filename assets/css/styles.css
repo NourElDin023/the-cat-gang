@@ -28,7 +28,11 @@
 
 .nav-link:hover {
     color: #b22222;
-    border-bottom: 2px solid #b22222;
+}
+
+.active {
+    color: #b22222 !important;
+    font-weight: bolder;
 }
 
 img {
