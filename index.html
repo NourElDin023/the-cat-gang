@@ -15,14 +15,14 @@
     <header class="sticky-top w-100">
         <nav class="navbar navbar-expand-lg bgColorOne" data-bs-theme="dark" id="navId">
             <div class="container-fluid justify-content-around">
-                <a class="navbar-brand fw-bold fs-2 " href="#home">THE CAT GANG</a>
+                <a href="#home" class="navbar-brand fw-bold fs-2">THE CAT GANG</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
+                    <div id="secondNavId" class="navbar-nav fs-5 text-center">
                         <a onclick="document.getElementById('navbarNavAltMarkup').classList.toggle('show')"
                             class="nav-link active" aria-current="page" href="#about">About</a>
                         <a onclick="document.getElementById('navbarNavAltMarkup').classList.toggle('show')"
@@ -39,11 +39,11 @@
         </nav>
     </header>
     <!-- ---------Body--------- -->
-    <main class="container" data-bs-spy="scroll" and data-bs-target="#navId">
+    <main class="container" data-bs-spy="scroll" and data-bs-target="#secondNavId">
 
         <!-- ---------Home--------- -->
-        <section class="row py-3 align-items-center justify-content-center mt-3">
-            <div class="col-11 col-lg-4 my-3">
+        <section id="home" class="row pb-5 align-items-center justify-content-center">
+            <div class="col-11 col-lg-4 my-3 img-card">
                 <img class="img-fluid rounded-5" src="./assets/images/meowGang.jpg" alt="Our Gang Photo">
             </div>
             <div class="col-11 col-lg-6 text-center txtColorOne mx-4">
@@ -71,11 +71,12 @@
                 </blockquote>
             </em>
         </section>
-        <hr class="bgColorAccent w-50 mx-auto" style="height: 3px;">
+        
         <!-- ---------About--------- -->
+        <hr class="bgColorAccent w-50 mx-auto" style="height: 3px;">
         <section id="about" class="row py-5 justify-content-center text-center align-items-center">
             <h2 class="fw-bold txtColorTwo">About Us</h2>
-            <div class="col-11 col-lg-4 my-3 d-md-none">
+            <div class="col-11 col-lg-4 my-3 d-md-none img-card">
                 <img class="img-fluid rounded-5" src="./assets/images/moewMafiaGroup.jpg" alt="Meow Group Photo">
             </div>
             <div class="col-11 col-lg-6 mx-4 txtColorOne">
@@ -93,8 +94,9 @@
             <div class="col-11 col-lg-4 my-3 d-md-block d-none img-card">
                 <img class="img-fluid rounded-5" src="./assets/images/moewMafiaGroup.jpg" alt="Meow Group Photo">
             </div>
-            <p class="fw-bold fs-3 txtColorAccent">Welcome to the family. Meow's the word!</p>
+            <p class="fw-bold fs-3 txtColorAccent">Welcome to the family.<br>Meow's the word!</p>
         </section>
+
         <!-- ---------Team--------- -->
         <hr class="bgColorAccent w-50 mx-auto" style="height: 3px;">
         <section id="team" class="row py-5 justify-content-center text-center">
@@ -239,7 +241,7 @@
                 <div class="col-11 col-sm-6 col-md-4 my-3 img-card">
                     <img class="img-fluid rounded-4" src="./assets/images/meowSpy.jpg" alt="Espionage">
                     <h5 class="txtColorTwo mt-2">Espionage & Surveillance</h5>
-                    <p class="txtColorOne">We see everything. You won’t even know we were there.</p>
+                    <p class="txtColorOne">We see everything. You won't even know we were there.</p>
                 </div>
 
                 <!-- Service 4 -->
@@ -267,7 +269,7 @@
 
         <!-- ---------Contact--------- -->
         <hr class="bgColorAccent w-50 mx-auto" style="height: 3px;">
-        <section id="contact" class="row py-5 justify-content-center text-center shadow mb-5" style="height: 70vh;">
+        <section id="contact" class="row py-5 justify-content-center text-center shadow my-5" style="height: 70vh;">
             <h2 class="txtColorTwo fw-bold">Contact The Gang</h2>
             <p class="txtColorOne fs-5">Need a job done? Drop us a message.</p>
 
@@ -293,6 +295,7 @@
             </div>
         </section>
     </main>
+
     <!-- ---------Footer--------- -->
     <footer class="bgColorOne txtColorOne py-3 text-center">
         <p>&copy; 2025 THE CAT GANG. All Rights Reserved.</p>
