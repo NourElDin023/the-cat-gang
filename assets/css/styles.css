@@ -104,3 +104,9 @@ html {
     box-shadow: 0 0 0 2px #b22222 !important;
     border: none !important;
 }
+
+.btn:active {
+    color: #fff !important;
+    background-color: #b22222 !important;
+    border-color: #b22222 !important;
+}
